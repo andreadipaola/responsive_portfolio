@@ -1,50 +1,82 @@
-<section class="section hero wf-section">
-  <header class="project-container hero w-container">
-    <div class="hero__wrapper"
-         style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
-      <div class="hero__right-column">
-        <div class="hero__wrapper-graphic-elements">
-          <img class="hero__eli-hero"
-              src="#"
-              loading="lazy"
-              srcset="#1 500w, #2 800w, #3 1080w, #4 1640w"
-              sizes="100vw"
-              alt="A photo of Eli Alcaraz"
-              style="transform: translate3d(-7.99856px, 4.76712px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1; will-change: transform;">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>.wf-force-outline-none[tabindex="-1"]:focus{outline:none;}</style>
+    <style type="text/css">.tk-mr-eaves-xl-modern{font-family:"mr-eaves-xl-modern",sans-serif;}</style>
+    <style type="text/css">@font-face{font-family:mr-eaves-xl-modern;src:url(https://use.typekit.net/af/f64800/00000000000000007735b303/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3) format("woff2"),url(https://use.typekit.net/af/f64800/00000000000000007735b303/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3) format("woff"),url(https://use.typekit.net/af/f64800/00000000000000007735b303/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3) format("opentype");font-weight:800;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:mr-eaves-xl-modern;src:url(https://use.typekit.net/af/85cac6/00000000000000007735b307/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/85cac6/00000000000000007735b307/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/85cac6/00000000000000007735b307/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:mr-eaves-xl-modern;src:url(https://use.typekit.net/af/fdd6d6/00000000000000007735b313/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3) format("woff2"),url(https://use.typekit.net/af/fdd6d6/00000000000000007735b313/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3) format("woff"),url(https://use.typekit.net/af/fdd6d6/00000000000000007735b313/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3) format("opentype");font-weight:200;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:mr-eaves-xl-modern;src:url(https://use.typekit.net/af/e35fa0/00000000000000007735b327/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/e35fa0/00000000000000007735b327/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/e35fa0/00000000000000007735b327/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:mr-eaves-xl-modern;src:url(https://use.typekit.net/af/abe747/00000000000000007735b32e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/abe747/00000000000000007735b32e/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/abe747/00000000000000007735b32e/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;font-stretch:normal;font-display:auto;}</style>
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Eli is a freelance website designer based in Southampton, England who specialises in crafting high-performing, personal brand websites." name="description">
+    <meta content="Eli Alcaraz - Freelance Website Designer" property="og:title">
+    <meta content="Eli is a freelance website designer based in Southampton, England who specialises in crafting high-performing, personal brand websites." property="og:description">
+    <meta content="https://uploads-ssl.webflow.com/603a00d2496482478db36f56/607af1107c4a104e2b6f0f06_OG%20Image%402x.jpg" property="og:image">
+    <meta content="Eli Alcaraz - Freelance Website Designer" property="twitter:title">
+    <meta content="Eli is a freelance website designer based in Southampton, England who specialises in crafting high-performing, personal brand websites." property="twitter:description">
+    <meta content="https://uploads-ssl.webflow.com/603a00d2496482478db36f56/607af1107c4a104e2b6f0f06_OG%20Image%402x.jpg" property="twitter:image">
+    <meta property="og:type" content="website">
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="Webflow" name="generator">
+
+    <link href="https://uploads-ssl.webflow.com/603a00d2496482478db36f56/607aab37e2745d82951bdc4d_Favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="https://uploads-ssl.webflow.com/603a00d2496482478db36f56/607aaab44b263df3a62cff68_Webclip.jpg" rel="apple-touch-icon">
+    <link href="https://uploads-ssl.webflow.com/603a00d2496482478db36f56/css/elialcaraz.webflow.ccca9f113.min.css" rel="stylesheet" type="text/css">
+
+    <title>Eli Alcaraz - Freelance Website Designer</title>
+    
+  </head>
+
+  <body class="body">
+    <section class="section hero wf-section">
+      <header class="project-container hero w-container">
+        <div class="hero__wrapper"
+             style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
+          <div class="hero__right-column">
+            <div class="hero__wrapper-graphic-elements">
+              <img class="hero__eli-hero"
+                  src="#"
+                  loading="lazy"
+                  srcset="#1 500w, #2 800w, #3 1080w, #4 1640w"
+                  sizes="100vw"
+                  alt="A photo of Eli Alcaraz"
+                  style="transform: translate3d(-7.99856px, 4.76712px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1; will-change: transform;">
 
 
-          <img class="grey-ellipse"
-               src="#"
-               loading="lazy"
-               alt="Grey ellipse which fades to transparency"
-               style="will-change: transform; transform: translate3d(-6.35616px, -11.9978px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+              <img class="grey-ellipse"
+                   src="#"
+                   loading="lazy"
+                   alt="Grey ellipse which fades to transparency"
+                   style="will-change: transform; transform: translate3d(-6.35616px, -11.9978px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
 
-          <img class="available-for-work"
-               src="#"
-               loading="lazy"
-               alt="A line of text in a circular shape which reads Available for Work"
-               style="transform: translate3d(-1.8776px, 1.8776px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(73.512deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform;">
-        </div>
-      </div>
-      <div class="hero__left-column">
-        <div class="hero__wrapper-preheader">
-          <div class="hero__emoji">👋</div>
-          <div class="hero__preheader">Hello there, my name is
-            <span class="preheader__bold-black">
-              <strong class="bold-text">eli</strong>
-            </span>
+              <img class="available-for-work"
+                   src="#"
+                   loading="lazy"
+                   alt="A line of text in a circular shape which reads Available for Work"
+                   style="transform: translate3d(-1.8776px, 1.8776px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(73.512deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform;">
+            </div>
+          </div>
+          <div class="hero__left-column">
+            <div class="hero__wrapper-preheader">
+              <div class="hero__emoji">👋</div>
+              <div class="hero__preheader">Hello there, my name is
+                <span class="preheader__bold-black">
+                  <strong class="bold-text">eli</strong>
+                </span>
+              </div>
+            </div>
+            <h1 class="hero__h1">I’m a Freelance Website Designer from Southampton, U.K.!</h1>
+            <div class="redline _40px-topbottom-marg"></div>
+            <h4 class="hero__h4">I craft high-performing, beautiful websites that are
+              <span class="h4__extrabold">conversion-focused, brand-accurate, &amp; people-friendly.</span>
+            </h4>
+            <div class="hero__wrapper-buttons">
+              <a class="button w-button" href="/booknow" >Book Free Discovery Call</a>
+              <a class="button outline hero__2ndbutton w-button" href="#portfolio-homepage" >View portfolio</a>
+            </div>
           </div>
         </div>
-        <h1 class="hero__h1">I’m a Freelance Website Designer from Southampton, U.K.!</h1>
-        <div class="redline _40px-topbottom-marg"></div>
-        <h4 class="hero__h4">I craft high-performing, beautiful websites that are
-          <span class="h4__extrabold">conversion-focused, brand-accurate, &amp; people-friendly.</span>
-        </h4>
-        <div class="hero__wrapper-buttons">
-          <a class="button w-button" href="/booknow" >Book Free Discovery Call</a>
-          <a class="button outline hero__2ndbutton w-button" href="#portfolio-homepage" >View portfolio</a>
-        </div>
-      </div>
-    </div>
-  </header>
-</section>
+      </header>
+    </section>
+  </body>
+
+</html>
